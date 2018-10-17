@@ -7,6 +7,9 @@ spring:
         enabled: true
         service-id: BOOTU-CONFIG
       profile: dev
+  rabbitmq:
+    host: 10.0.0.211
+    port: 5672
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
