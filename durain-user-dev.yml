@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: durain-user
+  rabbitmq:
+    host: 10.0.0.211
+    port: 5672
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/durain?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  redis:
+    host: 10.0.0.211
+    port: 6379
+env:  dev
