@@ -4,6 +4,9 @@ zuul:
     game-service:
       path: /game-service/**
       service-id: durain-games
+    user-service:
+      path: /user-service/**
+      service-id: durain-user  
 management:
   endpoints:
     web:
