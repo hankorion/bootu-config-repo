@@ -1,3 +1,9 @@
+spring:
+  jpa:
+    show-sql: true
+  redis:
+    host: 10.0.0.211
+    port: 6379
 zuul:
   sensitive-headers: null
   routes:
