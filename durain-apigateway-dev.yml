@@ -1,9 +1,9 @@
 zuul:
+  sensitive-headers: null
   routes:
     game-service:
       path: /game-service/**
       service-id: durain-games
-      sensitive-headers: null
 management:
   endpoints:
     web:
