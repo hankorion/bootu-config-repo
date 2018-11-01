@@ -14,4 +14,8 @@ spring:
   redis:
     host: 10.0.0.211
     port: 6379
+hystrix.command.default.execution.timeout.enabled: false
+ribbon:
+  ConnectTimeout:  10000
+  ReadTimeout:  10000
 env:  dev
